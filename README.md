@@ -43,7 +43,3 @@ curl -s -X PATCH http://127.0.0.1:5000/incidents/1 \
 # Delete
 curl -s -X DELETE http://127.0.0.1:5000/incidents/1 -v
 ```
-
-Notes:
-- The project uses SQLite by default (no DB file tracked in repo).
-- For reproducible installs pin exact package versions in `requirements.txt` (already done).
